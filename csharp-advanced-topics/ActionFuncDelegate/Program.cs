@@ -6,7 +6,7 @@ namespace ActionFuncDelegate
     {
         static void Main(string[] args)
         {
-            // Calculating and displaying areas using ShapeCalculator class
+            
             double rectangleResult = Area.RectangleArea(5, 10);
             double circleResult = Area.CircleArea(7);
             double triangleResult = Area.TriangleArea(3, 4, 5);

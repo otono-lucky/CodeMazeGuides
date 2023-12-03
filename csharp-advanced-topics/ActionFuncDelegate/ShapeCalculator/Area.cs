@@ -8,13 +8,13 @@ namespace ActionFuncDelegate.AreaCalculation
 {
     public class Area
     {
-        // Action delegate for displaying results
+        
         public static Action<string, double> DisplayResult = (shape, area) =>
         {
             Console.WriteLine($"The area of the {shape} is: {area}");
         };
 
-        // Func delegates for calculating areas
+        
         public static Func<double, double, double> RectangleArea = (length, width) =>
         {
             return length * width;
